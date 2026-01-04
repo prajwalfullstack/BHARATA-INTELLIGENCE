@@ -96,7 +96,10 @@ const PathwayCard = ({ type, icon, title, subtitle, desc, benefits, cta, color }
         ))}
       </ul>
 
-      <button className={`w-full py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-2 transition-all shadow-lg ${btnBg} ${btnText}`}>
+      <button 
+        onClick={() => window.location.hash = 'join'}
+        className={`w-full py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-2 transition-all shadow-lg ${btnBg} ${btnText}`}
+      >
         {cta} <ArrowRight size={20} />
       </button>
     </motion.div>

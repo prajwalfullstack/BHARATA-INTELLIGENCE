@@ -24,7 +24,7 @@ const Founder: React.FC = () => {
           >
             <div className="relative rounded-[2rem] overflow-hidden shadow-2xl border-4 border-secondary/20">
               <img 
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1000&auto=format&fit=crop" 
+                src="https://media.licdn.com/dms/image/v2/D4D03AQHYEpnRhNCu4Q/profile-displayphoto-crop_800_800/B4DZps.1HWGgAQ-/0/1762765002100?e=1769040000&v=beta&t=iIygKR_xEvKhlfCrqqTe_Q17Sf-BI58hd5Ss9RhLS00" 
                 alt="Azhaan Merchant" 
                 className="w-full aspect-[3/4] object-cover hover:scale-105 transition-transform duration-700"
               />

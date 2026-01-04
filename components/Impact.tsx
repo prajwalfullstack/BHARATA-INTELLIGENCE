@@ -31,7 +31,7 @@ const Impact: React.FC = () => {
               <div className="relative shrink-0">
                  <div className="w-32 h-32 md:w-56 md:h-56 rounded-full border-4 border-white/10 shrink-0 overflow-hidden shadow-2xl relative z-10">
                     <img 
-                      src="https://images.unsplash.com/photo-1560807707-8cc77767d783?q=80&w=1000&auto=format&fit=crop" 
+                      src="https://www.mckinsey.com/~/media/mckinsey/industries/agriculture/our%20insights/indian%20farmers%20optimism%20is%20driving%20interest%20in%20new%20products/mck248245-1536x1536.jpg?mw=677&car=42:25" 
                       alt="Farmer Rajesh Gaikwad" 
                       className="w-full h-full object-cover"
                     />

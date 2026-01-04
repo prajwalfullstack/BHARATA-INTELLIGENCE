@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Sprout, ArrowRight } from 'lucide-react';
+import { Menu, X, ArrowRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const Header: React.FC = () => {
@@ -39,14 +39,13 @@ const Header: React.FC = () => {
             }
           `}
         >
-          {/* Logo */}
-          <a href="#" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-primary to-[#1B5235] rounded-xl flex items-center justify-center text-white shadow-lg shadow-primary/20 group-hover:shadow-primary/40 transition-all duration-300 transform group-hover:rotate-6">
-              <Sprout size={20} />
-            </div>
-            <div className={`transition-opacity duration-300`}>
-              <h1 className="text-lg font-bold text-darkgray tracking-tight leading-none">Bharat<span className="text-primary block text-xs font-medium tracking-widest uppercase">Intelligence</span></h1>
-            </div>
+          {/* Logo - Full Image */}
+          <a href="#" className="flex items-center group">
+            <img 
+              src="https://bharatintelligence.ai/static/imagelib/company.jpeg" 
+              alt="Bharat Intelligence" 
+              className="h-12 w-auto object-contain rounded-md transition-transform duration-300 group-hover:scale-105"
+            />
           </a>
 
           {/* Desktop Nav */}

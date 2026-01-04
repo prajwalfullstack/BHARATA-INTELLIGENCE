@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sprout, Twitter, Linkedin, Mail, Smartphone } from 'lucide-react';
+import { Twitter, Linkedin, Mail, Smartphone } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -9,11 +9,12 @@ const Footer: React.FC = () => {
           
           {/* Brand */}
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-2 mb-6">
-              <div className="w-8 h-8 bg-primary rounded flex items-center justify-center text-white">
-                <Sprout size={18} />
-              </div>
-              <span className="text-xl font-bold">Bharat Intelligence</span>
+            <div className="mb-8 inline-block">
+               <img 
+                  src="https://bharatintelligence.ai/static/imagelib/company.jpeg" 
+                  alt="Bharat Intelligence" 
+                  className="h-14 w-auto object-contain rounded-lg"
+                />
             </div>
             <p className="text-gray-400 mb-6 max-w-sm leading-relaxed">
               Creating technology that respects farmer dignity and rural reality. 

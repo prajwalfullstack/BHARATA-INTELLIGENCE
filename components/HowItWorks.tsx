@@ -68,9 +68,9 @@ const HowItWorks: React.FC = () => {
         </div>
         
         <div className="mt-16 text-center">
-             <a href="#join" className="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all duration-300">
+             <button onClick={() => window.location.hash = 'join'} className="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all duration-300">
                 Start your first job <ArrowRight size={18} />
-             </a>
+             </button>
         </div>
       </div>
     </section>
